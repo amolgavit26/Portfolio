@@ -1,38 +1,49 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';  
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { SiX } from 'react-icons/si';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { TypeAnimation } from 'react-type-animation';
-import Particles from 'react-tsparticles';
-import { loadFull } from 'tsparticles';
+
+import Particles, { initParticlesEngine } from '@tsparticles/react';
+import { loadSlim } from '@tsparticles/slim';
+
 import '../styles/HeroHeader.css';
 import ProfileImg from '../assets/1-1.png';
 
 function HeroHeader() {
+  const [engineReady, setEngineReady] = useState(false);
+
   useEffect(() => {
     AOS.init({ duration: 1000 });
+
+    initParticlesEngine(async (engine) => {
+      await loadSlim(engine); // Use loadFull if you install '@tsparticles/full'
+    }).then(() => {
+      setEngineReady(true);
+    });
   }, []);
 
   return (
     <section id="home" className="hero" data-aos="fade-up">
-      <Particles
-        id="tsparticles"
-        init={loadFull}
-        options={{
-          fullScreen: { enable: false },
-          background: { color: 'transparent' },
-          particles: {
-            number: { value: 30 },
-            color: { value: '#00ffe7' },
-            size: { value: 2 },
-            move: { enable: true, speed: 0.6 },
-            opacity: { value: 0.3 },
-          },
-        }}
-      />
+      {engineReady && (
+        <Particles
+          id="tsparticles"
+          options={{
+            fullScreen: { enable: false },
+            background: { color: 'transparent' },
+            particles: {
+              number: { value: 30 },
+              color: { value: '#00ffe7' },
+              size: { value: 2 },
+              move: { enable: true, speed: 0.6 },
+              opacity: { value: 0.3 },
+            },
+          }}
+        />
+      )}
 
       <Container>
         <Row className="align-items-center">
@@ -74,7 +85,6 @@ function HeroHeader() {
                   <FaInstagram />
                 </a>
               </div>
-
             </div>
           </Col>
 
