@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c9611c16.css",
+    "main.js": "/portfolio/static/js/main.87a9d1c2.js",
+    "static/js/453.438d9e50.chunk.js": "/portfolio/static/js/453.438d9e50.chunk.js",
+    "static/media/1-1.png": "/portfolio/static/media/1-1.3dfc55c94b34dfe1a616.png",
+    "static/media/TaskManager.png": "/portfolio/static/media/TaskManager.21a9392a4ec6b30d9913.png",
+    "static/media/CarRental.png": "/portfolio/static/media/CarRental.bde264c7528ace5c0f18.png",
+    "static/media/CarServiceHub.png": "/portfolio/static/media/CarServiceHub.db73734bb65dad9d6c2a.png",
+    "static/media/SmartHire.png": "/portfolio/static/media/SmartHire.48156f1519eebc4d8e22.png",
+    "static/media/Portfolio.png": "/portfolio/static/media/Portfolio.315234ea92df71887a87.png",
+    "static/media/Sanchara.png": "/portfolio/static/media/Sanchara.9d439ac5a713edff1f34.png",
+    "index.html": "/portfolio/index.html",
+    "main.c9611c16.css.map": "/portfolio/static/css/main.c9611c16.css.map",
+    "main.87a9d1c2.js.map": "/portfolio/static/js/main.87a9d1c2.js.map",
+    "453.438d9e50.chunk.js.map": "/portfolio/static/js/453.438d9e50.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9611c16.css",
+    "static/js/main.87a9d1c2.js"
+  ]
+}
