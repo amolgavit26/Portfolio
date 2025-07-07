@@ -57,8 +57,8 @@
 }
 
 .skill-badge {
-  background: #00ffe7;
-  color: #000;
+  background: repeating-linear-gradient(45deg, #1bd1cb, #5c9698 10px);
+  color: #ffffff;
   padding: 0.3rem 0.7rem;
   border-radius: 20px;
   font-weight: bold;
@@ -69,4 +69,36 @@
 .skill-badge:hover {
   transform: scale(1.1);
   background-color: #00e6d2;
+}
+
+
+
+
+
+.downloadResume {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: linear-gradient(to bottom right, rgb(0, 85, 255), rgb(0, 255, 191));
+
+
+  color: #000000;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.downloadResume a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.downloadResume:hover {
+  background-color: #00e6d2;
+  transform: scale(1.05);
 }

@@ -75,37 +75,96 @@
   margin-bottom: 1rem;
 }
 
+
+
+
+
+
+
+
+
+
+
 .tag {
   display: inline-block;
-  background-color: #00f0ff;
-  color: #000;
+  background: linear-gradient(90deg, #00f0ff, #8a2be2, #0066ff); /* cyan → purple → blue */
+  background-size: 200% auto; /* Make it larger for animation */
+  color: #fff;
   border-radius: 20px;
   padding: 0.3rem 1rem;
   margin-right: 0.5rem;
   font-weight: bold;
+  font-size: 0.9rem;
+  box-shadow: 0 0 6px rgba(0, 240, 255, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: shine 4s linear infinite; /* Add shine animation */
 }
 
-.tag.green {
-  background-color: #29c76f;
+.tag:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 240, 255, 0.7);
 }
 
-.tag.cyan {
-  background-color: #00d5ff;
+/* ✨ Keyframes for subtle animated shine */
+@keyframes shine {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 🔹 Project button: gradient & glow */
 .project-button {
-  background-color: #0066ff;
-  color: #fff;
+  background: linear-gradient(90deg, #00ffb3, #00bfff);
+  color: #000;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
 }
 
 .project-button:hover {
-  background-color: #004fd6;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.6);
 }
+
+/* 🔹 Show more button: darker gradient & subtle neon */
+.show-more-button {
+  background: linear-gradient(90deg, #0066ff, #00bfff);
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 8px rgba(0, 191, 255, 0.3);
+}
+
+.show-more-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px rgba(0, 191, 255, 0.6);
+}
+
 
 /* Responsive */
 @media screen and (max-width: 768px) {
@@ -117,17 +176,3 @@
 }
 
 
-.show-more-button {
-  background-color: #202d2a;
-  color: #fff;
-  padding: 0.6rem 1.5rem;
-  border-radius: 8px;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.show-more-button:hover {
-  background-color: #2d4543;
-}

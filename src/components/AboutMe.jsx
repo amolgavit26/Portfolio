@@ -21,6 +21,18 @@ function AboutMe() {
             Beyond coding, I value problem-solving, teamwork, adaptability, and continuous learning. Whether I’m exploring microservice architectures, experimenting with new frameworks, or analyzing data with PowerBI, my focus remains on building impactful, user-friendly solutions. <br></br>
             I’m excited to keep growing, contribute to meaningful projects, and collaborate with passionate teams to create software that makes a difference.
           </p>
+
+<button className='downloadResume'>
+  <a
+    href="https://drive.google.com/file/d/13XqYRiDp50YV1Gnfsd6LNXIT8TeLHWuC/view?usp=drive_link"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Download My Resume
+  </a>
+</button>
+
+
         </div>
         <div className="about-right" data-aos="fade-left">
           <h3 className="summary-title">Summary</h3>

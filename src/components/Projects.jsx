@@ -92,12 +92,13 @@ const Projects = () => {
                       ? 'cyan'
                       : ''
                   }`}
+                  data-aos={project.animation}
+                  data-aos-delay={(idx + 1) * 100} // subtle stagger
                 >
                   {tag}
                 </span>
               ))}
             </div>
-
             {project.url ? (
               <a
                 href={project.url}
