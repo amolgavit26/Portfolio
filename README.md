@@ -85,7 +85,7 @@ Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/amolgavit26/) 
 
 ---
 
-> Designed & built with ❤️ by [Amol Gavit]
+> Designed & built with ❤️ by Amol Gavit
 
 
 
