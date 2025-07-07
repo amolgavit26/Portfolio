@@ -1,3 +1,26 @@
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+.content {
+  margin-left: 180px;
+  padding: 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+/* Sidebar base styles */
 .sidebar {
   position: fixed;
   top: 0;
@@ -8,6 +31,8 @@
   padding-top: 20px;
   z-index: 1000;
   border-right: 1px solid #333;
+  display: block;
+  transition: left 0.3s ease-in-out; /* add smooth transition */
 }
 
 .sidebar a {
@@ -20,4 +45,38 @@
 .sidebar a:hover {
   background-color: #0d6efd;
   color: #fff !important;
+}
+
+/* Hamburger button styles */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: #fff;
+  background-color: #1f1f1f;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1100;
+  border-radius: 4px;
+}
+
+/* Responsive: hide sidebar & show hamburger on mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    left: -180px;           /* hide sidebar off canvas */
+  }
+
+  .sidebar.show {
+    left: 0;                /* slide in */
+  }
+
+  .hamburger {
+    display: block;        /* show hamburger */
+  }
+
+  .content {
+    margin-left: 0;       /* remove margin so content uses full width */
+  }
 }
