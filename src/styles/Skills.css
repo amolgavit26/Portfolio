@@ -1,0 +1,107 @@
+.skills-section {
+  padding: 60px 0;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #00e5ff;
+  text-align: center;
+  font-weight: bold;
+}
+
+.intro-text {
+  max-width: 800px;
+  margin: 0 auto 16px;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.skill-box {
+  border: 1px solid #ff007f;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  background-color: #1c1c1c;
+}
+
+.skill-title {
+  color: #00e5ff;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.icons svg {
+  font-size: 2.2rem;   /* larger icons */
+  color: #e0e0e0;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.icons svg:hover {
+  color: #00e5ff;
+  transform: scale(1.2);
+}
+
+/* ----------------------------
+   Skill Bars styles - improved
+---------------------------- */
+.skill-bars {
+  margin-top: 40px;
+}
+
+.bar-item {
+  margin-bottom: 24px;
+}
+
+.bar-title {
+  color: #00ffb3;
+  font-weight: bold;
+  font-size: 1.15rem;
+  letter-spacing: 0.5px;
+}
+
+.bar-percent {
+  float: right;
+  color: #00e5ff;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.bar {
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  height: 16px;                  /* thicker bars */
+  margin-top: 6px;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.6);
+}
+
+.bar-fill {
+  background: linear-gradient(90deg, #00ffb3, #00bfff);
+  height: 100%;
+  border-radius: 12px;
+  width: 0;
+  animation: fillBar 1.5s forwards;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* ✨ Hover effect: glow */
+.bar-fill:hover {
+  box-shadow: 0 0 8px #00e5ff, 0 0 12px #00bfff;
+  transform: scaleY(1.1);
+}
+
+/* Animation to fill the bar smoothly */
+@keyframes fillBar {
+  from { width: 0; }
+  to { width: var(--bar-width); }
+}

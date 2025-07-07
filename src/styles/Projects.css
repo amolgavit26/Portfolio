@@ -1,0 +1,133 @@
+.projects-section {
+  padding: 4rem 2rem;
+  background-color: #111;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #00f0ff;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1c1c1c;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.08);
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.project-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.project-card + .project-card {
+  margin-top: 2rem;
+}
+
+.project-image {
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* 🎨 Hover effect */
+.project-image img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+}
+
+.project-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.project-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.project-tags {
+  margin-bottom: 1rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #00f0ff;
+  color: #000;
+  border-radius: 20px;
+  padding: 0.3rem 1rem;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.tag.green {
+  background-color: #29c76f;
+}
+
+.tag.cyan {
+  background-color: #00d5ff;
+}
+
+.project-button {
+  background-color: #0066ff;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #004fd6;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .project-card,
+  .project-card.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+.show-more-button {
+  background-color: #202d2a;
+  color: #fff;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.show-more-button:hover {
+  background-color: #2d4543;
+}
