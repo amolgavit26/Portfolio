@@ -5,6 +5,10 @@ import SmartHire from '../assets/SmartHire.png';
 import CarRental from '../assets/CarRental.png';
 import TaskManager from '../assets/TaskManager.png';
 import Portfolio from '../assets/Portfolio.png';
+import Olympics_EDA from '../assets/Olympics_EDA.png';
+import Sales_DashBoard from '../assets/Sales_DashBoard.png';
+import BritishAirways from '../assets/BritishAirways.png';
+import WindTurbine from '../assets/WindTurbine.png';
 import '../styles/Projects.css';
 
 const projects = [
@@ -50,11 +54,43 @@ const projects = [
   },
   {
     title: 'Portfolio Site',
-    description: 'My personal portfolio showcasing projects and skills, built with React and styled using TailwindCSS.',
+    description: 'Welcome to my personal portfolio website built using React.js! This project showcases my work, skills, and contact information in a clean and modern layout.',
     tags: ['React'],
     animation: 'fade-right',
-    url: '',
+    url: 'https://github.com/amolgavit26/Portfolio',
     image: Portfolio
+  },
+  {
+    title: 'Olympic EDA',
+    description: 'This project performs an Exploratory Data Analysis (EDA) on the Olympic Games dataset to uncover insights, trends, and interesting visualizations related to athletes performances, participating countries, medal tallies, and historical data over time.',
+    tags: ['Python', 'Plotly', 'Jupyter'],
+    animation: 'fade-left',
+    url: 'https://github.com/amolgavit26/EDA_on_Olympic_Dataset?tab=readme-ov-file',
+    image: Olympics_EDA
+  },
+  {
+    title: 'WondTurbine',
+    description: 'This project is a Python-based BME analysis and calculation for horizontal-axis wind turbine (HAWT) blades. It calculates blade parameters such as chord length, angle of attack, and other geometric and aerodynamic properties based on user inputs.',
+    tags: ['QBlade', 'MATLAB', 'Python'],
+    animation: 'fade-right',
+    url: 'https://github.com/amolgavit26/Wind_Turbine',
+    image: WindTurbine
+  },
+  {
+    title: 'British Airways Analysis',
+    description: 'This project involves web scraping, data cleaning, and sentiment analysis of British Airways customer reviews from Skytrax. Using Python libraries like BeautifulSoup, pandas, and vaderSentiment, it follows a full data science workflow—from collecting and cleaning raw data to building and evaluating predictive models that estimate a customers likelihood of booking a flight.',
+    tags: ['Python', 'Vader','Machine Learning', 'Pandas'],
+    animation: 'fade-left',
+    url: 'https://github.com/amolgavit26/British_Airways_Internship_Project',
+    image: BritishAirways
+  },
+  {
+    title: 'Sales Analysis',
+    description: 'This Power BI dashboard provides a comprehensive overview of sales performance for XYZ Limited across different locations, product codes, and time periods. It enables stakeholders to gain insights into revenue trends, profitability, and transaction metrics for the financial years 2018–19 and 2019–20.',
+    tags: ['PowerBI'],
+    animation: 'fade-right',
+    url: 'https://github.com/amolgavit26/XYZ_Sales_Dashboard_PBI',
+    image: Sales_DashBoard
   },
 ];
 
@@ -93,7 +129,7 @@ const Projects = () => {
                       : ''
                   }`}
                   data-aos={project.animation}
-                  data-aos-delay={(idx + 1) * 100} // subtle stagger
+                  data-aos-delay={(idx + 1) * 100} 
                 >
                   {tag}
                 </span>
@@ -121,7 +157,6 @@ const Projects = () => {
         </div>
       ))}
 
-      {/* Show more / Show less button */}
       <div style={{ textAlign: 'center', marginTop: '2rem' }}>
         <button
           className="show-more-button"
