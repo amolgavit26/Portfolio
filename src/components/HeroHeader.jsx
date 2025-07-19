@@ -28,7 +28,11 @@ function HeroHeader() {
 
   return (
     <section id="home" className="hero" data-aos="fade-up">
-      {engineReady && (
+      
+
+
+      
+      {/* {engineReady && (
         <Particles
           id="tsparticles"
           options={{
@@ -43,8 +47,12 @@ function HeroHeader() {
             },
           }}
         />
-      )}
+      )} */}
 
+
+
+
+      
       <Container>
         <Row className="align-items-center">
           <Col md={7} className="hero-left">
