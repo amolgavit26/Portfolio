@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c0774cad.css",
-    "main.js": "/Portfolio/static/js/main.89b62bfd.js",
+    "main.css": "/Portfolio/static/css/main.a1415e0b.css",
+    "main.js": "/Portfolio/static/js/main.40d8714e.js",
     "static/js/453.438d9e50.chunk.js": "/Portfolio/static/js/453.438d9e50.chunk.js",
-    "static/media/1-1.png": "/Portfolio/static/media/1-1.3dfc55c94b34dfe1a616.png",
+    "static/media/Photo.png": "/Portfolio/static/media/Photo.3dfc55c94b34dfe1a616.png",
     "static/media/TaskManager.png": "/Portfolio/static/media/TaskManager.21a9392a4ec6b30d9913.png",
     "static/media/CarRental.png": "/Portfolio/static/media/CarRental.bde264c7528ace5c0f18.png",
     "static/media/CarServiceHub.png": "/Portfolio/static/media/CarServiceHub.db73734bb65dad9d6c2a.png",
@@ -15,12 +15,12 @@
     "static/media/WindTurbine.png": "/Portfolio/static/media/WindTurbine.8816dea99d9e50779913.png",
     "static/media/BritishAirways.png": "/Portfolio/static/media/BritishAirways.2b0c569ee8824da40176.png",
     "index.html": "/Portfolio/index.html",
-    "main.c0774cad.css.map": "/Portfolio/static/css/main.c0774cad.css.map",
-    "main.89b62bfd.js.map": "/Portfolio/static/js/main.89b62bfd.js.map",
+    "main.a1415e0b.css.map": "/Portfolio/static/css/main.a1415e0b.css.map",
+    "main.40d8714e.js.map": "/Portfolio/static/js/main.40d8714e.js.map",
     "453.438d9e50.chunk.js.map": "/Portfolio/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0774cad.css",
-    "static/js/main.89b62bfd.js"
+    "static/css/main.a1415e0b.css",
+    "static/js/main.40d8714e.js"
   ]
 }
