@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.a1415e0b.css",
-    "main.js": "/Portfolio/static/js/main.40d8714e.js",
+    "main.css": "/Portfolio/static/css/main.0c2d9a19.css",
+    "main.js": "/Portfolio/static/js/main.2dca9924.js",
     "static/js/453.438d9e50.chunk.js": "/Portfolio/static/js/453.438d9e50.chunk.js",
     "static/media/Photo.png": "/Portfolio/static/media/Photo.3dfc55c94b34dfe1a616.png",
     "static/media/TaskManager.png": "/Portfolio/static/media/TaskManager.21a9392a4ec6b30d9913.png",
@@ -15,12 +15,12 @@
     "static/media/WindTurbine.png": "/Portfolio/static/media/WindTurbine.8816dea99d9e50779913.png",
     "static/media/BritishAirways.png": "/Portfolio/static/media/BritishAirways.2b0c569ee8824da40176.png",
     "index.html": "/Portfolio/index.html",
-    "main.a1415e0b.css.map": "/Portfolio/static/css/main.a1415e0b.css.map",
-    "main.40d8714e.js.map": "/Portfolio/static/js/main.40d8714e.js.map",
+    "main.0c2d9a19.css.map": "/Portfolio/static/css/main.0c2d9a19.css.map",
+    "main.2dca9924.js.map": "/Portfolio/static/js/main.2dca9924.js.map",
     "453.438d9e50.chunk.js.map": "/Portfolio/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1415e0b.css",
-    "static/js/main.40d8714e.js"
+    "static/css/main.0c2d9a19.css",
+    "static/js/main.2dca9924.js"
   ]
 }
