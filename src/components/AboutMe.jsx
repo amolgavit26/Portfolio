@@ -22,15 +22,21 @@ function AboutMe() {
             I’m excited to keep growing, contribute to meaningful projects, and collaborate with passionate teams to create software that makes a difference.
           </p>
 
-<button className='downloadResume'>
-  <a
-    href="https://drive.google.com/file/d/13XqYRiDp50YV1Gnfsd6LNXIT8TeLHWuC/view?usp=drive_link"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Download My Resume
-  </a>
-</button>
+          <p className="achievement">
+            Published a research article in the International Research Journal of Engineering and Technology titled
+            <span className="paperName"> "Analysis of Newly Designed Airfoil for Micro-Capacity Wind Turbine Using QBlade Software for Different Parameters."</span>
+          </p>
+
+
+          <button className='downloadResume'>
+            <a
+              href="https://drive.google.com/file/d/13XqYRiDp50YV1Gnfsd6LNXIT8TeLHWuC/view?usp=drive_link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download My Resume
+            </a>
+          </button>
 
 
         </div>

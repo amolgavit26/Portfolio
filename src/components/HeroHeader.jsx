@@ -11,7 +11,7 @@ import Particles, { initParticlesEngine } from '@tsparticles/react';
 import { loadSlim } from '@tsparticles/slim';
 
 import '../styles/HeroHeader.css';
-import ProfileImg from '../assets/1-1.png';
+import ProfileImg from '../assets/Photo.png';
 
 function HeroHeader() {
   const [engineReady, setEngineReady] = useState(false);

@@ -44,10 +44,23 @@
 }
 
 .highlighted {
-  color: indianred;
-  font-style: italic;
+  color: rgb(219, 118, 87);
   margin-top: 1rem;
 }
+
+.achievement {
+  color: rgb(92, 205, 203);
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.paperName {
+  font-style: italic;
+  color: rgb(92, 205, 203);
+  margin-left: 0.3rem; 
+}
+
+
 
 .skills {
   display: flex;
