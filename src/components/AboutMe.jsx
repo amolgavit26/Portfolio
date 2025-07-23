@@ -27,16 +27,28 @@ function AboutMe() {
             <span className="paperName"> "Analysis of Newly Designed Airfoil for Micro-Capacity Wind Turbine Using QBlade Software for Different Parameters."</span>
           </p>
 
+          <div className="buttonWrapper">
+            <button className="checkPaper">
+              <a
+                href="https://www.irjet.net/archives/V10/i12/IRJET-V10I1250.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Check This Article
+              </a>
+            </button>
 
-          <button className='downloadResume'>
-            <a
-              href="https://drive.google.com/file/d/13XqYRiDp50YV1Gnfsd6LNXIT8TeLHWuC/view?usp=drive_link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Download My Resume
-            </a>
-          </button>
+            <button className="downloadResume">
+              <a
+                href="https://drive.google.com/file/d/13XqYRiDp50YV1Gnfsd6LNXIT8TeLHWuC/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download My Resume
+              </a>
+            </button>
+          </div>
+
 
 
         </div>

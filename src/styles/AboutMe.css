@@ -88,21 +88,41 @@
 
 
 
+
+
+
+
+
+
+.buttonWrapper {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
 .downloadResume {
   display: inline-block;
   margin-top: 1.5rem;
-  background: linear-gradient(to bottom right, rgb(0, 85, 255), rgb(0, 255, 191));
+  background: linear-gradient(135deg, rgb(0, 85, 255), rgb(0, 255, 191));
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 
-
-  color: #000000;
-  padding: 0.6rem 1.2rem;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
   border: none;
-  border-radius: 25px;
+  border-radius: 30px;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 600;
   cursor: pointer;
   text-decoration: none;
-  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
 .downloadResume a {
@@ -112,6 +132,38 @@
 }
 
 .downloadResume:hover {
-  background-color: #00e6d2;
   transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(135deg, rgb(0, 255, 191), rgb(0, 85, 255));
+}
+
+
+
+.checkPaper {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: linear-gradient(135deg, rgb(0, 85, 255), #ffffff, rgb(0, 255, 191));
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  color: #000000;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.checkPaper a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.checkPaper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, rgb(0, 255, 191), #ffffff, rgb(0, 85, 255));
 }
