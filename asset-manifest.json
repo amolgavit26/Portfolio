@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.0c2d9a19.css",
-    "main.js": "/Portfolio/static/js/main.62496b22.js",
+    "main.js": "/Portfolio/static/js/main.d562ff58.js",
     "static/js/453.438d9e50.chunk.js": "/Portfolio/static/js/453.438d9e50.chunk.js",
     "static/media/TaskManager.png": "/Portfolio/static/media/TaskManager.21a9392a4ec6b30d9913.png",
     "static/media/Photo.png": "/Portfolio/static/media/Photo.b53c1d2160456bb93bc5.png",
@@ -17,11 +17,11 @@
     "static/media/BritishAirways.png": "/Portfolio/static/media/BritishAirways.2b0c569ee8824da40176.png",
     "index.html": "/Portfolio/index.html",
     "main.0c2d9a19.css.map": "/Portfolio/static/css/main.0c2d9a19.css.map",
-    "main.62496b22.js.map": "/Portfolio/static/js/main.62496b22.js.map",
+    "main.d562ff58.js.map": "/Portfolio/static/js/main.d562ff58.js.map",
     "453.438d9e50.chunk.js.map": "/Portfolio/static/js/453.438d9e50.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c2d9a19.css",
-    "static/js/main.62496b22.js"
+    "static/js/main.d562ff58.js"
   ]
 }
