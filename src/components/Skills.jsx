@@ -1,11 +1,11 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import '../styles/Skills.css';
 import {
-  FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaJava, FaDatabase
+  FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaJava, FaDatabase, FaAws
 } from 'react-icons/fa';
 import {
   SiBootstrap, SiSpringboot, SiOracle,
-  SiNodedotjs, SiExpress, SiDotnet, SiMysql, SiMongodb
+  SiNodedotjs, SiExpress, SiDotnet, SiMysql, SiMongodb, SiNewrelic, SiAnsible
 } from 'react-icons/si';
 
 function Skills() {
@@ -59,6 +59,16 @@ function Skills() {
               </div>
             </div>
           </Col>
+          <Col md={4} className="mx-auto">
+          <div className="skill-box">
+            <h5 className="skill-title">Other</h5>
+            <div className="icons">
+              <FaAws title="AWS" />
+              <SiNewrelic title="Newrelic" />
+              <SiAnsible title="Ansible" />
+            </div>
+          </div>
+        </Col>
         </Row>
 
         {/* Skill bars */}

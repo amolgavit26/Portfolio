@@ -9,9 +9,18 @@ import Olympics_EDA from '../assets/Olympics_EDA.png';
 import Sales_DashBoard from '../assets/Sales_DashBoard.png';
 import BritishAirways from '../assets/BritishAirways.png';
 import WindTurbine from '../assets/WindTurbine.png';
+import Annapurna from '../assets/Annapurna.png';
 import '../styles/Projects.css';
 
 const projects = [
+  {
+    title: 'Annapurna',
+    description: 'The Annapurna Tiffin Delivery Service is a complete web platform for managing online tiffin orders, supporting three roles: Customer, Vendor, and Admin.which is developed using React for frontend and SpringBoot as well as ASP.NET for the same frontend. using MySQL for SpringBoot and MS SQL Server for databse.',
+    tags: ['SpringBoot', 'MySQL', 'ASP.NET', 'MS SQL Server', 'React'],
+    animation: 'fade-right',
+    url: 'https://github.com/amolgavit26/DAC_Project_Annapurna',
+    image: Annapurna
+  },
   {
     title: 'Sanchara',
     description: 'A complete CourierEase Online Delivery Platform, built with a React-based frontend and a .NET Core + SQL Server backend. This system allows users to book courier shipments, track delivery status, and contact support. Admins and agents can manage users, shipments, and overall operations.',

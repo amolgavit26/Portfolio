@@ -14,12 +14,13 @@ function AboutMe() {
         <div className="about-left" data-aos="fade-right">
           <h2 className="about-title">Little About Me</h2>
           <p>
-            I’m an aspiring and passionate software developer with a strong technical foundation built through formal education and hands-on projects. My journey began in mechanical engineering, but my curiosity and drive to build solutions pushed me into the world of software development—where I’ve truly found my purpose. <br></br>
-            Currently, I’m pursuing a Post Graduate Diploma in Advanced Computing at C-DAC Mumbai, where I’ve honed my skills in Java, Spring Boot, SQL, ReactJS, Node.js, .NET, and Python. I thrive in full-stack development environments, crafting responsive user interfaces and building scalable backend systems.
+            I am an Associate Operations Engineer at Morningstar with a strong foundation in software development, cloud technologies, and IT operations. My professional journey began with a background in Mechanical Engineering, but my passion for technology and problem-solving led me to pursue a career in the software and cloud domain.
+          </p>
+          <p>
+            I completed my Post Graduate Diploma in Advanced Computing (PG-DAC) from C-DAC Mumbai, where I developed expertise in Java, Spring Boot, SQL, ReactJS, Node.js, .NET, and Python. This technical foundation enables me to understand both application development and the infrastructure that powers modern software systems.
           </p>
           <p className="highlighted">
-            Beyond coding, I value problem-solving, teamwork, adaptability, and continuous learning. Whether I’m exploring microservice architectures, experimenting with new frameworks, or analyzing data with PowerBI, my focus remains on building impactful, user-friendly solutions. <br></br>
-            I’m excited to keep growing, contribute to meaningful projects, and collaborate with passionate teams to create software that makes a difference.
+            In my current role, I work with cloud platforms, automation tools, system monitoring, deployment processes, and infrastructure operations. I am also AWS Certified Cloud Practitioner, demonstrating my commitment to cloud computing and continuous professional growth. I enjoy learning new technologies, optimizing processes, and contributing to reliable, scalable, and efficient systems.
           </p>
 
           <p className="achievement">
@@ -56,7 +57,7 @@ function AboutMe() {
           <h3 className="summary-title">Summary</h3>
           <div className="summary-item">
             <strong>Current Role</strong><br />
-            Postgraduate student at C-DAC Mumbai
+            Associate Operation Engineer at Morningstar
           </div>
           <div className="summary-item">
             <strong>Education</strong><br />
@@ -71,7 +72,7 @@ function AboutMe() {
           <div className="summary-item">
             <strong>Skills</strong><br />
             <div className="skills">
-              {['Spring Boot', 'ReactJs', '.net', 'MERN', 'Java', 'JavaScript', 'Python'].map(skill => (
+              {['Herness', 'AWS', 'MERN', 'Java', 'NewRelic', 'Python'].map(skill => (
                 <span key={skill} className="skill-badge" data-aos="zoom-in">{skill}</span>
               ))}
             </div>
